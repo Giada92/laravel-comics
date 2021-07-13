@@ -25,6 +25,5 @@ Route::get('/comics', function () {
     $menu = config('menu');
     //dump($comics);
     //$data = ['comics' => $comics];
-
-    return view('comics', ['comics' => $comics, 'menu' => $menu ]);
+    return view('comics', ['comics' => $comics, 'menu' => $menu]);
 });

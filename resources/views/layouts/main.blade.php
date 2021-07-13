@@ -20,9 +20,9 @@
 
         {{-- Main della pagina --}}
         <main>
-                {{-- Fumetti --}}
-                    @yield('main-content')
-                {{-- /Fumetti --}}
+            {{-- Fumetti --}}
+            @yield('main-content')
+            {{-- /Fumetti --}}
         </main>
         {{-- /Main della pagina --}}
 
@@ -31,6 +31,10 @@
             {{-- footer-top --}}
             @include('partials.shop')
             {{-- /footer-top --}}
+
+            {{-- Footer-centrale --}}
+            @include('partials.footer_main')
+            {{-- /Footer-centrale --}}
         </footer>
         {{-- /Footer --}}
     </body>

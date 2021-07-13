@@ -1,4 +1,29 @@
 .shop {
     height: 150px;
     background-color: $secondColor;
+
+    .section-shop {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 100%;
+
+        .single {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 100%;
+
+            img {
+                height: 40%;
+            }
+
+            p {
+                margin-left: 10px;
+                font-size: 14px;
+                color: $textColor;
+                text-transform: uppercase;
+            }
+        }
+    }
 }

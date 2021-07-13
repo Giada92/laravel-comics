@@ -20,6 +20,7 @@ a {
 
 .container {
   width: 70%;
+  height: 100%;
   margin: 0 auto;
 }
 
@@ -58,6 +59,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  height: 100px;
 }
 
 .header-nav .wrapper-header-nav .logo > img {
@@ -157,5 +159,75 @@ main .btn a:hover {
 .shop {
   height: 150px;
   background-color: #0282F9;
+}
+
+.shop .section-shop {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.shop .section-shop .single {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  height: 100%;
+}
+
+.shop .section-shop .single img {
+  height: 40%;
+}
+
+.shop .section-shop .single p {
+  margin-left: 10px;
+  font-size: 14px;
+  color: #FFFF;
+  text-transform: uppercase;
+}
+
+.footer-main {
+  height: 450px;
+  position: relative;
+  z-index: -1;
+  background-image: url("/img/footer-bg.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.footer-main .wrapper-footer {
+  display: flex;
+}
+
+.footer-main .wrapper-footer .link {
+  width: 50%;
+  margin: 30px 0;
+}
+
+.footer-main .wrapper-footer .link .menu-footer:first-child {
+  font-size: 16px;
+  font-weight: 700;
+  color: #FFFF;
+}
+
+.footer-main .wrapper-footer .link .menu-footer:first-child li:not(:first-child) {
+  padding: 3px 0;
+}
+
+.footer-main .wrapper-footer .link .menu-footer:first-child li:not(:first-child) a {
+  font-size: 14px;
+  color: #797979;
+  font-weight: 100;
+}
+
+.footer-main .wrapper-footer .DC-logo > img {
+  -o-object-position: 0 -60px;
+     object-position: 0 -60px;
+}
+
+.footer-social {
+  display: flex;
+  height: 150px;
+  background-color: #303030;
 }
 
