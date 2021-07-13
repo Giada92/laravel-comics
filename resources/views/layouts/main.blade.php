@@ -10,18 +10,28 @@
         <link rel="stylesheet" href="{{ asset('css/app.css') }}">
     </head>
     <body>
-      {{-- Header della pagina --}}
-      @include('partials.header')
-      {{-- /Header della pagina --}}
+        {{-- Header della pagina --}}
+        @include('partials.header')
+        {{-- /Header della pagina --}}
 
-      {{-- Jumbotron --}}
-      @include('partials.jumbotron')
-      {{-- Jumbotron --}}
+        {{-- Jumbotron --}}
+        @include('partials.jumbotron')
+        {{-- Jumbotron --}}
 
-      {{-- Main della pagina --}}
-      <main>
-        @yield('main-content')
-      </main>
-    {{-- /Main della pagina --}}
+        {{-- Main della pagina --}}
+        <main>
+                {{-- Fumetti --}}
+                    @yield('main-content')
+                {{-- /Fumetti --}}
+        </main>
+        {{-- /Main della pagina --}}
+
+        {{-- Footer --}}
+        <footer>
+            {{-- footer-top --}}
+            @include('partials.shop')
+            {{-- /footer-top --}}
+        </footer>
+        {{-- /Footer --}}
     </body>
 </html>

@@ -21,24 +21,16 @@
                 </div>
                 <nav>
                     <ul class="menu">
-                        <li>
-                            <a href="#">Character</a>
-                        </li>
-                        <li>
-                            <a href="#" class="active">Comics</a>
-                        </li>
-                        <li>
-                            <a href="#">Movie</a>
-                        </li>
-                        <li>
-                            <a href="#">Tv</a>
-                        </li>
-                        <li>
-                            <a href="#">Games</a>
-                        </li>
-                        <li>
-                            <a href="#">Games</a>
-                        </li>
+                        @foreach ($menu as $item)
+                            <li>
+                                <a href="#" >
+                                    {{ $item }}
+                                @if ($loop->last)
+                                    ---
+                                @endif
+                                </a>
+                            </li>
+                        @endforeach
                     </ul>
                 </nav>
                 <div class="search">Search</div>
