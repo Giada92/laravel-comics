@@ -41,7 +41,7 @@
                         </li>
                     </ul>
                 </nav>
-                <div class="search">a</div>
+                <div class="search">Search</div>
             </div>  
         </div>
     </div>

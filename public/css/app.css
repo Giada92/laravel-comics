@@ -89,7 +89,12 @@ a {
 }
 
 .jumbotron {
-  height: 500px;
-  background-image: url("");
+  height: 450px;
+  background-image: url("/img/jumbotron.jpg");
+}
+
+main {
+  padding: 40px 0;
+  background-color: #1C1C1C;
 }
 

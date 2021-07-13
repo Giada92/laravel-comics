@@ -1,5 +1,9 @@
 @extends('layouts.main')
 
 @section('main-content')
-    <h1>Main della pagina</h1>
+    <div class="container">
+        <div class="cards">
+            {{-- @dump($comics); --}}
+        </div>
+    </div>
 @endsection
